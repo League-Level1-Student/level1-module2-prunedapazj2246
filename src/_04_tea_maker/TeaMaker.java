@@ -4,9 +4,23 @@ package _04_tea_maker;
  *    Level 1
  */
 
+import _04_tea_maker.Kettle.Water;
+
 public class TeaMaker {
 
-	/* Figure out how to make a cup of tea in this runner class, using the other classes below */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+TeaBag g = new TeaBag("green");
+TeaBag m = new TeaBag("mint");
+TeaBag c = new TeaBag("chamomile");
+TeaBag pf = new TeaBag("passion fruit");
+Kettle k = new Kettle();
+Cup cup = new Cup();
+System.out.println("I will drink " + pf.getFlavor() + " tea.");
+k.getWater();
+k.boil();
+cup.makeTea(pf, k.getWater());
+	}/* Figure out how to make a cup of tea in this runner class, using the other classes below */
 
 }
 
