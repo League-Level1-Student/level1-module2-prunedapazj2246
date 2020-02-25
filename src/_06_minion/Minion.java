@@ -17,6 +17,7 @@ public class Minion {
 				this.color = color;
 				this.master=master;
 			}
+
 			public int getEyes() {
 				return eyes;
 			}
@@ -44,7 +45,8 @@ public class Minion {
 				public void setMaster(String master) {
 					this.master =  master;
 				}
-			}
+}
+			
 		
 	
 

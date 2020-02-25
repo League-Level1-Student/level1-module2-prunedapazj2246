@@ -18,4 +18,8 @@ public class TeaPartyTest {
                assertEquals("Hello Mr. Orwell", teaParty.welcome("Orwell", false, false));
                assertEquals("Hello Sir Isaac Newton", teaParty.welcome("Isaac Newton", false, true));
        }
+       
+       
 }
+
+       
